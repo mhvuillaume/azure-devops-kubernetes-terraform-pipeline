@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
--job: Job1
+- job: Job1
   steps:
   - script: echo Job1 Hello, world! Marc !
     displayName: 'Run a one-line script'
@@ -19,8 +19,8 @@ jobs:
       echo See https://aka.ms/yaml
       echo more information
     displayName: 'Run a multi-line script'
--job: Job2
+- job: Job2
   steps:
-  -script:
+  - script:
     echo Job2
     displayName: 'Run a one-line script'
