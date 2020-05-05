@@ -20,7 +20,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'mhv-docker-hub'
-        repository: 'in28min/currency-exchange-devops'
+        repository: 'mhvuillaume/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
