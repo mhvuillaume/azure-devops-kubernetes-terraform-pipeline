@@ -24,4 +24,4 @@ steps:
     backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'storageacctmhvxyz'
     backendAzureRmContainerName: 'storageacctmhvcontainer'
-    backendAzureRmKey: 'kubernetes-dev.tf'
+    backendAzureRmKey: 'kubernetes-dev.tfstate'
